@@ -10,8 +10,17 @@ This project is a template Native Executable project for AOSP. You can use this 
     <project remote="github" path="external/xxx" name="liuxk99/hello-executable.git" revision="master" />
 </manifest>
 ```
-You should modify the remote node by your own ssh config(~/.ssh/config)
+You should modify the remote node by your own ssh config(~/.ssh/config).
 After repo sync, you can get repository in external/xxx.
+The tree of project like this:
+```
+external$ tree xxx/
+xxx/
+├── Android.mk
+└── hello.c
+
+0 directories, 2 files
+```
 
 # Test-Run
 ```
@@ -22,6 +31,7 @@ Hello, Android!
 ```
 
 # Platforms
+I have tested the build and run for this executable on AmlT920L AmlT972. The details as below.
 ## AmlT920L
 andorid 5.1.1 API-Level 22
 ## AmlT972
