@@ -2,7 +2,7 @@
 This project is a template Native Executable project for AOSP. You can use this template to create your own executable project in the source code environment, such as in external/xxx.
 
 # local manifest
-.repo/local_manifest/xxx.xml
+.repo/local_manifests/xxx.xml
 ```code:java
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
